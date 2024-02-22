@@ -1,0 +1,420 @@
+
+@media (max-width: 1200px) {
+    .ethics {
+        margin-top: -7px;
+    }
+
+    .parts img {
+        width: 450px;
+    }
+
+    .parts h1 {
+        margin-bottom: 15px;
+    }
+
+    .parts p {
+        margin-bottom: 40px;
+    }
+
+    .product-contain {
+        font-size: 14px;
+    }
+
+    .footer img{
+        width: 190px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header {
+        position: relative;
+    }
+
+    .header img {
+        width: 125px;
+    }
+
+    .header ul {
+        position: absolute;
+        display: block !important;
+        background-color: #222222;
+        width: 100%;
+        height: 100vh;
+        text-align: center;
+        top: 100px;
+        left: -100%;
+        -webkit-transition: .5s ease;
+        -o-transition: .5s ease;
+        transition: .5s ease;
+        z-index: 5;
+    }
+
+    .header ul li {
+        margin-top: 60px;
+    }
+
+    .header ul li a {
+        font-size: 16px;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    #check:checked~label ul {
+        left: 0;
+    }
+
+    .video-text {
+        top: 270px;
+    }
+
+    .video-text h1 {
+        font-size: 78px;
+        margin-bottom: 40px;
+    }
+
+    .video-text a {
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+
+    .parts img {
+        margin-bottom: 100px;
+    }
+
+    .parts-img {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .parts h1 {
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+
+    .parts p {
+        margin-bottom: 30px;
+    }
+
+    .scroll {
+        padding: 100px 0px;
+    }
+
+    .scroll a {
+        font-weight: 600;
+    }
+
+    .product-1 {
+        margin-bottom: 20px;
+    }
+
+    .footer img {
+        width: 200px;
+    }
+
+    .foot {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .video-text {
+        top: 240px;
+    }
+
+    .video-text h1 {
+        font-size: 65px;
+    }
+
+    .video-text a {
+        font-size: 14px;
+    }
+
+    .parts img {
+        width: 400px;
+    }
+
+    .contact {
+        height: 105vh;
+    }
+}
+
+@media (max-width: 655px) {
+    .header img {
+        width: 120px;
+    }
+
+    .header ul {
+        top: 95px;
+    }
+
+    .video-text {
+        top: 220px;
+    }
+
+    .video-text h1 {
+        font-size: 60px;
+    }
+
+    .end {
+        display: none;
+    }
+
+    .ethics h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .ethics p {
+        font-size: 14px;
+    }
+
+    .gallery iframe {
+        height: 25 0px;
+    }
+}
+
+@media (max-width: 630px) {
+    .video-text h1 {
+        font-size: 55px;
+    }
+}
+
+@media (max-width: 570px) {
+    .video-text {
+        top: 200px;
+    }
+
+    .video-text h1 {
+        font-size: 50px;
+        margin-bottom: 30px;
+    }
+
+    .video-text a {
+        padding: 8px 12px;
+        letter-spacing: 2px;
+    }
+
+    .parts p {
+        font-size: 17px;
+    }
+
+    .gallery iframe {
+        height: 200px;
+    }
+}
+
+@media (max-width: 496px) {
+    .header img {
+        width: 100px;
+    }
+
+    .header ul {
+        top: 85px;
+    }
+
+    .video-text {
+        top: 180px;
+    }
+
+    .video-text h1 {
+        font-size: 40px;
+        color: #fff;
+    }
+
+    .end2 {
+        display: none;
+    }
+
+    .parts a,
+    .product a,
+    .gallery-btn {
+        padding: 7px 12px;
+    }
+
+    .scroll h3 {
+        font-size: 27px;
+        font-weight: bold;
+    }
+
+    .scroll a {
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 485px) {
+    .video-text {
+        top: 175px;
+    }
+}
+
+@media(max-width: 470px) {
+    .video-text {
+        top: 170px;
+    }
+}
+
+@media (max-width: 445px) {
+    .video-text {
+        top: 160px;
+    }
+
+    .video-text h1 {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .video-text a {
+        letter-spacing: 1px;
+    }
+
+    .parts img {
+        width: 350px;
+    }
+
+    .scroll h3 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .scroll a,
+    .product a,
+    .gallery-btn {
+        padding: 5px 15px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .product img,
+    .product-contain img {
+        aspect-ratio: 0/1;
+    }
+}
+
+@media (max-width: 355px) {
+    .header img {
+        width: 90px;
+    }
+
+    .header ul {
+        top: 75px;
+    }
+
+    .video-text {
+        top: 140px;
+    }
+
+    .video-text h1 {
+        font-size: 27px;
+        color: #fff;
+    }
+
+    .parts img {
+        width: 300px;
+    }
+}
+
+@media (max-width: 330px) {
+    .contact {
+        height: 110vh;
+    }
+}
+
+@media (max-width: 321px) {
+    .video-text {
+        top: 130px;
+    }
+
+    .video-text h1 {
+        font-size: 27px;
+        color: #fff;
+        font-weight: 500;
+        margin-bottom: 25px;
+    }
+
+    .video-text a {
+        font-size: 13px;
+    }
+
+    .scroll h3 {
+        font-size: 17px;
+        letter-spacing: 1px;
+    }
+
+    .scroll a {
+        padding: 5px 12px;
+        font-size: 14px;
+    }
+
+    .footer img {
+        width: 180px;
+    }
+}
+
+@media (max-width: 290px) {
+    .header img {
+        width: 80px;
+    }
+
+    .checkbtn {
+        font-size: 30px;
+    }
+
+    .header ul {
+        top: 70px;
+    }
+
+    .video-text {
+        top: 120px;
+    }
+
+    .video-text h1 {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .video-text a {
+        padding: 5px 10px;
+    }
+
+    .parts img {
+        width: 250px;
+    }
+
+    .parts h1 {
+        font-size: 32px;
+    }
+
+    .parts p {
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+
+    .parts a,
+    .product a,
+    .gallery-btn {
+        padding: 5px 15px;
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+    .scroll {
+        padding: 70px 0px;
+    }
+
+    .scroll h3 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .scroll a {
+        padding: 3px 12px;
+    }
+}
