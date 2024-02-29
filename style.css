@@ -214,6 +214,7 @@ ul {
 
 .parts img {
     width: 500px;
+    filter: drop-shadow(3px 3px 6px);
 }
 
 .parts h1 {
